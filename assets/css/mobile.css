@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1024px) {
+    .header{background-size: cover; background-attachment: fixed;background-position: center}
+    .header h1{font-size: 7vh; line-height: 8vh}
+    .title h1{font-size: 7vh; line-height: 8vh; width:50%}
+    .content p{font-size: 20px}
+}
+@media only screen and (max-width: 768px) {
+    iframe{height:80%}
+    .btn-home-img{opacity:0.3}
+    .prolog{margin: 8px;padding: 0;}
+    .content{margin: 0 8px}
+    .title h1{margin: 20px}
+    .list-foto .text-foto p{font-size: 15px;line-height: 20px}
+}
+@media only screen and (max-width: 375px) {
+    .content{margin: 0 8px}
+    .title h1{margin: 10px; font-size:6vh}
+}
